@@ -31,6 +31,6 @@ for i in text:
             sum+=k  
     for k, v in rus.items():  
         if i in v:  
-               sum+=k
+            sum+=k
 print(f'Стоимость введенного слова {text} равна {sum}!')
 
